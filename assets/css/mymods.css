@@ -1,0 +1,22 @@
+.flex-icon-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+.flex-icon-container > i {
+  font-size: 9vw;
+  margin: 1vw;
+}
+
+.mammoth {
+  background-image: url('./images/lightmammoth.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 10em;
+  height: 10em;
+  margin-bottom: 1em;
+}
